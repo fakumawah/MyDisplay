@@ -30,6 +30,7 @@ var config = {
 	language: "en",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
 	timeFormat: 24,
+	dateFormat: "ddd DD-MM-YYYY",
 	units: "metric",
 	// serverOnly:  true/false/"local" ,
 	// local for armv6l processors, default
