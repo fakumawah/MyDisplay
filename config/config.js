@@ -69,13 +69,26 @@ var config = {
 			module: "calendar",
 			header: "Fru´s Google Calendar",
 			position: "top_left",
+			colored: true,
 			config: {
 				dateFormat: "ddd DD-MM-YYYY",
-				maximumEntries: "7",
+				maximumEntries: "8",
 				calendars: [
 					{
 						symbol: "calendar-check",
 						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics"
+					},
+					{
+						symbol: "calendar-check",
+						url: "https://calendar.google.com/calendar/htmlembed?src=addressbook%23contacts%40group.v.calendar.google.com&ctz=Europe%2FBerlin"
+					},
+					{
+						symbol: "calendar-check",
+						url: "https://calendar.google.com/calendar/embed?src=n29gnrdjrsf5q6etvn6gg5v6dc%40group.calendar.google.com&ctz=Europe%2FBerlin"
+					},
+					{
+						symbol: "calendar-check",
+						url: "https://calendar.google.com/calendar/embed?src=q51v5pm40vrbvdpllie49d31no%40group.calendar.google.com&ctz=Europe%2FBerlin"
 					}
 				]
 			}
