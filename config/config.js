@@ -76,11 +76,11 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics"
+						url: "https://calendar.google.com/calendar/ical/n29gnrdjrsf5q6etvn6gg5v6dc%40group.calendar.google.com/public/basic.ics"
 					},
 					{
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/n29gnrdjrsf5q6etvn6gg5v6dc%40group.calendar.google.com/public/basic.ics"
+						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics"
 					},
 					{
 						symbol: "calendar-check",
