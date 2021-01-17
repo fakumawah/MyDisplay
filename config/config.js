@@ -57,7 +57,7 @@ var config = {
 			colored: true,
 			config: {
 				maximumEntries: "8",
-				maximumNumberOfDays: "7",
+				maximumNumberOfDays: "10",
 				calendars: [
 					{
 						symbol: "calendar-check",
@@ -68,7 +68,7 @@ var config = {
 						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics"
 					},
 					{
-						symbol: "calendar-check",
+						symbol: "calendar",
 						url: "https://calendar.google.com/calendar/ical/q51v5pm40vrbvdpllie49d31no%40group.calendar.google.com/private-c3d03f7b57556ebd40180627f8de151f/basic.ics"
 					}
 				]
@@ -171,13 +171,22 @@ var config = {
 			}
 		},
 		{
-			module: 'MMM-DailyBibleVerse',
-			position: 'bottom_bar',	// This can be any of the regions. Best result is in the bottom_bar as verses can take multiple lines in a day.
+			module: "MMM-CalendarWeek",
+			position: "bottom_bar",	// This can be any of the regions. Best results in bottom region.
 			config: {
-				version: 'NIV', // This can be changed to any version you want that is offered by Bible Gateway. For a list, go here: https://www.biblegateway.com/versions/,
-				size: 'small' // default value is medium, but can be changed.
+				// The config property is optional.
+				// If no config is set, an example calendar is shown.
+				// See 'Configuration options' for more information.
 			}
 		},
+		// {
+		// 	module: 'MMM-DailyBibleVerse',
+		// 	position: 'bottom_bar',	// This can be any of the regions. Best result is in the bottom_bar as verses can take multiple lines in a day.
+		// 	config: {
+		// 		version: 'NIV', // This can be changed to any version you want that is offered by Bible Gateway. For a list, go here: https://www.biblegateway.com/versions/,
+		// 		size: 'small' // default value is medium, but can be changed.
+		// 	}
+		// },
 	]
 };
 
