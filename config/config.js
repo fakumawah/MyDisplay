@@ -73,6 +73,7 @@ var config = {
 			config: {
 				dateFormat: "ddd DD-MM-YYYY",
 				maximumEntries: "8",
+				maximumNumberOfDays: "7",
 				calendars: [
 					{
 						symbol: "calendar-check",
@@ -113,19 +114,76 @@ var config = {
 			}
 		},
 		{
+			module: "MMM-Fuel",
+			position: "top_right",
+			config: {
+				api_key: "0db29330-c9cd-7ef7-9921-e048fb89f930",
+				lat: 50.015658,
+				lng: 8.774855,
+				types: ["diesel","e5"],
+				showOpenOnly: true,
+				// all your config options, which are different than their default values
+			}
+		},
+		{
+			module: 'MMM-PublicTransportDB',
+			position: 'top_right',
+			config: {
+				name: "Dietzenbach Bf",
+				stationId: 9160003,
+			}
+		},
+		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			config: {
 				feeds: [
+					// {
+					// 	title: "New York Times",
+					// 	url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+					// },
+					// {
+					// 	title: "BBC",
+					// 	url: "http://feeds.bbci.co.uk/news/video_and_audio/news_front_page/rss.xml?edition=uk",
+					// },
 					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "FAZ Sport",
+						url: "https://www.faz.net/rss/aktuell/sport/fussball/",
+					},
+					{
+						title: "FAZ News",
+						url: "http://www.faz.net/s/Rub/Tpl~Epartner~SR..",
+					},
+					{
+						title: "Spiegel",
+						url: "https://www.spiegel.de/schlagzeilen/tops/index.rss",
+					},
+					{
+						title: "Heise",
+						url: "www.heise.de/rss/heise-top-atom.xml",
+					},
+					{
+						title: "Stern",
+						url: "http://www.stern.de/feed/standard/alle-nachrichten/",
+					},
+					{
+						title: "FAZ News",
+						url: "",
 					}
+
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
 				broadcastNewsFeeds: true,
 				broadcastNewsUpdates: true
+			}
+		},
+		{
+			module: 'MMM-DailyBibleVerse',
+			position: 'bottom_bar',	// This can be any of the regions. Best result is in the bottom_bar as verses can take multiple lines in a day.
+			config: {
+				version: 'NIV', // This can be changed to any version you want that is offered by Bible Gateway. For a list, go here: https://www.biblegateway.com/versions/,
+				size: 'small' // default value is medium, but can be changed.
 			}
 		},
 	]
