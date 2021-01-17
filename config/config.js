@@ -80,15 +80,11 @@ var config = {
 					},
 					{
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/htmlembed?src=addressbook%23contacts%40group.v.calendar.google.com&ctz=Europe%2FBerlin"
+						url: "https://calendar.google.com/calendar/ical/n29gnrdjrsf5q6etvn6gg5v6dc%40group.calendar.google.com/public/basic.ics"
 					},
 					{
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/embed?src=n29gnrdjrsf5q6etvn6gg5v6dc%40group.calendar.google.com&ctz=Europe%2FBerlin"
-					},
-					{
-						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/embed?src=q51v5pm40vrbvdpllie49d31no%40group.calendar.google.com&ctz=Europe%2FBerlin"
+						url: "https://calendar.google.com/calendar/ical/q51v5pm40vrbvdpllie49d31no%40group.calendar.google.com/public/basic.ics"
 					}
 				]
 			}
