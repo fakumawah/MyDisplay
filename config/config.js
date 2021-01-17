@@ -54,12 +54,12 @@ var config = {
 			header: "German Holidays",
 			position: "top_left",
 			config: {
+				dateFormat: "ddd DD-MM-YYYY",
+				maximumEntries: "5",
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.webcal.fi/cal.php?id=75&format=ics&wrn=1&wp=4&wf=53&color=%23FF3100&cntr=de&lang=de&rid=wc",
-						dateFormat: "ddd DD-MM-YYYY",
-						maximumEntries: "5"
+						url: "webcal://www.webcal.fi/cal.php?id=75&format=ics&wrn=1&wp=4&wf=53&color=%23FF3100&cntr=de&lang=de&rid=wc"
 					}
 				]
 			}
@@ -69,12 +69,12 @@ var config = {
 			header: "Fru´s Google Calendar",
 			position: "top_left",
 			config: {
+				dateFormat: "ddd DD-MM-YYYY",
+				maximumEntries: "7",
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics",
-						dateFormat: "ddd DD-MM-YYYY",
-						maximumEntries: "7"
+						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics"
 					}
 				]
 			}
