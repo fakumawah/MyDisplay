@@ -52,6 +52,30 @@ var config = {
 		},
 		{
 			module: "calendar",
+			header: "Fru´s Google Calendar",
+			position: "top_left",
+			colored: true,
+			config: {
+				maximumEntries: "8",
+				maximumNumberOfDays: "7",
+				calendars: [
+					{
+						symbol: "calendar-check",
+						url: "https://calendar.google.com/calendar/ical/n29gnrdjrsf5q6etvn6gg5v6dc%40group.calendar.google.com/private-fcec3f14c814c69f5e49c4ac92163a5b/basic.ics"
+					},
+					{
+						symbol: "calendar-check-o",
+						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics"
+					},
+					{
+						symbol: "calendar-check",
+						url: "https://calendar.google.com/calendar/ical/q51v5pm40vrbvdpllie49d31no%40group.calendar.google.com/private-c3d03f7b57556ebd40180627f8de151f/basic.ics"
+					}
+				]
+			}
+		},
+		{
+			module: "calendar",
 			header: "German Holidays",
 			position: "top_left",
 			config: {
@@ -61,31 +85,6 @@ var config = {
 					{
 						symbol: "calendar-check",
 						url: "webcal://www.webcal.fi/cal.php?id=75&format=ics&wrn=1&wp=4&wf=53&color=%23FF3100&cntr=de&lang=de&rid=wc"
-					}
-				]
-			}
-		},
-		{
-			module: "calendar",
-			header: "Fru´s Google Calendar",
-			position: "top_left",
-			colored: true,
-			config: {
-				dateFormat: "ddd DD-MM-YYYY",
-				maximumEntries: "8",
-				maximumNumberOfDays: "7",
-				calendars: [
-					{
-						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/n29gnrdjrsf5q6etvn6gg5v6dc%40group.calendar.google.com/private-fcec3f14c814c69f5e49c4ac92163a5b/basic.ics"
-					},
-					{
-						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics"
-					},
-					{
-						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/q51v5pm40vrbvdpllie49d31no%40group.calendar.google.com/private-c3d03f7b57556ebd40180627f8de151f/basic.ics"
 					}
 				]
 			}
@@ -123,14 +122,6 @@ var config = {
 				types: ["diesel","e5"],
 				showOpenOnly: true,
 				// all your config options, which are different than their default values
-			}
-		},
-		{
-			module: 'MMM-PublicTransportDB',
-			position: 'top_right',
-			config: {
-				name: "Dietzenbach Bf",
-				stationId: 9160003,
 			}
 		},
 		{
