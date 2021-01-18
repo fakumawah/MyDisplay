@@ -126,6 +126,24 @@ var config = {
 			}
 		},
 		{
+			module: 'MMM-CountDown',
+			position: "top_right",
+			event: "Birthday Shanie",
+			config: {
+				date: "2021-03-17 00:00:00",
+				// See configuration options
+			}
+		},
+		{
+			module: 'MMM-CountDown',
+			position: "top_right",
+			event: "Birthday Rahel",
+			config: {
+				date: "2021-05-13 00:00:00",
+				// See configuration options
+			}
+		},
+		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			config: {
