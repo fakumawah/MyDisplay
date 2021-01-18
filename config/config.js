@@ -174,9 +174,20 @@ var config = {
 			module: "MMM-CalendarWeek",
 			position: "bottom_bar",	// This can be any of the regions. Best results in bottom region.
 			config: {
-				// The config property is optional.
-				// If no config is set, an example calendar is shown.
-				// See 'Configuration options' for more information.
+				calendars: [
+					{
+						symbol: "calendar-check",
+						url: "https://calendar.google.com/calendar/ical/n29gnrdjrsf5q6etvn6gg5v6dc%40group.calendar.google.com/private-fcec3f14c814c69f5e49c4ac92163a5b/basic.ics"
+					},
+					{
+						symbol: "calendar-check-o",
+						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics"
+					},
+					{
+						symbol: "calendar",
+						url: "https://calendar.google.com/calendar/ical/q51v5pm40vrbvdpllie49d31no%40group.calendar.google.com/private-c3d03f7b57556ebd40180627f8de151f/basic.ics"
+					}
+				]
 			}
 		},
 		// {
