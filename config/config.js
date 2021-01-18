@@ -114,7 +114,7 @@ var config = {
 		},
 		{
 			module: "MMM-Fuel",
-			position: "top_right",
+			position: "top_left",
 			config: {
 				api_key: "0db29330-c9cd-7ef7-9921-e048fb89f930",
 				lat: 50.015658,
