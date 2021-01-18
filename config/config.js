@@ -57,7 +57,7 @@ var config = {
 			colored: true,
 			config: {
 				maximumEntries: "8",
-				maximumNumberOfDays: "10",
+				maximumNumberOfDays: "2",
 				calendars: [
 					{
 						symbol: "calendar-check",
