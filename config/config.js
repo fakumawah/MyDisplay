@@ -123,6 +123,7 @@ var config = {
 				radius: 5,
 				max: 4,
 				showOpenOnly: true,
+				shortenText: true,
 				// all your config options, which are different than their default values
 			}
 		},
