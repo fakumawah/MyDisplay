@@ -128,18 +128,24 @@ var config = {
 		{
 			module: 'MMM-CountDown',
 			position: "top_right",
-			event: "Birthday Shanie",
 			config: {
+				event: "Birthday Shanie",
 				date: "2021-03-17 00:00:00",
+				showSeconds: false,
+				showMinutes: false,
+				showHours: false,
 				// See configuration options
 			}
 		},
 		{
 			module: 'MMM-CountDown',
 			position: "top_right",
-			event: "Birthday Rahel",
 			config: {
+				event: "Birthday Rahel",
 				date: "2021-05-13 00:00:00",
+				showSeconds: false,
+				showMinutes: false,
+				showHours: false,
 				// See configuration options
 			}
 		},
