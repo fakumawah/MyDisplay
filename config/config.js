@@ -184,8 +184,8 @@ var config = {
 						url: "http://www.stern.de/feed/standard/alle-nachrichten/",
 					},
 					{
-						title: "FAZ News",
-						url: "",
+						title: "LRC News",
+						url: "https://cdn.camerounweb.com/feed/newsfeed.xml",
 					}
 
 				],
@@ -215,6 +215,14 @@ var config = {
 				]
 			}
 		},
+		{
+			module: 'MMM-soccer',
+			position: 'bottom_right',
+			config: {
+		        focusOn: {"GERMANY": "Eintracht Frankfurt"},
+				api_key: "94d4778caf214e4e9fa695a0c68353d0"
+			}
+		}
 		// {
 		// 	module: 'MMM-DailyBibleVerse',
 		// 	position: 'bottom_bar',	// This can be any of the regions. Best result is in the bottom_bar as verses can take multiple lines in a day.
