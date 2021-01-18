@@ -127,7 +127,7 @@ var config = {
 			}
 		},
 		{
-			module: 'MMM-CountDown',
+			module: 'MMM-CountDownSL',
 			position: "top_right",
 			config: {
 				event: "Birthday Shanie",
@@ -139,7 +139,7 @@ var config = {
 			}
 		},
 		{
-			module: 'MMM-CountDown',
+			module: 'MMM-CountDownSL',
 			position: "top_right",
 			config: {
 				event: "Birthday Rahel",
