@@ -138,18 +138,18 @@ var config = {
 				// See configuration options
 			}
 		},
-		// {
-		// 	module: 'MMM-CountDown',
-		// 	position: "top_right",
-		// 	config: {
-		// 		event: "Birthday Rahel",
-		// 		date: "2021-05-13 00:00:00",
-		// 		showSeconds: false,
-		// 		showMinutes: false,
-		// 		showHours: false,
-		// 		// See configuration options
-		// 	}
-		// },
+		{
+			module: 'MMM-CountDown',
+			position: "top_right",
+			config: {
+				event: "Birthday Rahel",
+				date: "2021-05-13 00:00:00",
+				showSeconds: false,
+				showMinutes: false,
+				showHours: false,
+				// See configuration options
+			}
+		},
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
