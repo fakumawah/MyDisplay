@@ -112,19 +112,19 @@ var config = {
 				appid: "5483548ad593740dc7e8dbc6bc42c7cd"
 			}
 		},
-		{
-			module: "MMM-Fuel",
-			position: "top_right",
-			config: {
-				api_key: "0db29330-c9cd-7ef7-9921-e048fb89f930",
-				lat: 50.015658,
-				lng: 8.774855,
-				types: ["diesel","e5"],
-				radius: 10,
-				showOpenOnly: false,
-				// all your config options, which are different than their default values
-			}
-		},
+		// {
+		// 	module: "MMM-Fuel",
+		// 	position: "top_right",
+		// 	config: {
+		// 		api_key: "0db29330-c9cd-7ef7-9921-e048fb89f930",
+		// 		lat: 50.015658,
+		// 		lng: 8.774855,
+		// 		types: ["diesel","e5"],
+		// 		radius: 10,
+		// 		showOpenOnly: false,
+		// 		// all your config options, which are different than their default values
+		// 	}
+		// },
 		{
 			module: 'MMM-CountDown',
 			position: "top_right",
