@@ -113,6 +113,20 @@ var config = {
 			}
 		},
 		{
+			module: "MMM-Fuel",
+			position: "top_right",
+			config: {
+				api_key: "0db29330-c9cd-7ef7-9921-e048fb89f930",
+				lat: 50.015658,
+				lng: 8.774855,
+				types: ["diesel","e5"],
+				radius: 5,
+				max: 4,
+				showOpenOnly: true,
+				// all your config options, which are different than their default values
+			}
+		},
+		{
 			module: 'MMM-CountDown',
 			position: "top_right",
 			config: {
@@ -124,31 +138,18 @@ var config = {
 				// See configuration options
 			}
 		},
-		{
-			module: 'MMM-CountDown',
-			position: "top_right",
-			config: {
-				event: "Birthday Rahel",
-				date: "2021-05-13 00:00:00",
-				showSeconds: false,
-				showMinutes: false,
-				showHours: false,
-				// See configuration options
-			}
-		},
-		{
-			module: "MMM-Fuel",
-			position: "top_right",
-			config: {
-				api_key: "0db29330-c9cd-7ef7-9921-e048fb89f930",
-				lat: 50.015658,
-				lng: 8.774855,
-				types: ["diesel","e5"],
-				radius: 10,
-				showOpenOnly: false,
-				// all your config options, which are different than their default values
-			}
-		},
+		// {
+		// 	module: 'MMM-CountDown',
+		// 	position: "top_right",
+		// 	config: {
+		// 		event: "Birthday Rahel",
+		// 		date: "2021-05-13 00:00:00",
+		// 		showSeconds: false,
+		// 		showMinutes: false,
+		// 		showHours: false,
+		// 		// See configuration options
+		// 	}
+		// },
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
