@@ -219,8 +219,10 @@ var config = {
 			module: 'MMM-soccer',
 			position: 'bottom_right',
 			config: {
-		        focusOn: {"GERMANY": "Eintracht Frankfurt"},
-				api_key: "94d4778caf214e4e9fa695a0c68353d0"
+		        focus_on: {"GERMANY": "Eintracht Frankfurt"},
+				api_key: "94d4778caf214e4e9fa695a0c68353d0",
+				max_teams: 6,
+
 			}
 		}
 		// {
