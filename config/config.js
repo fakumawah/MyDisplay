@@ -127,7 +127,7 @@ var config = {
 			}
 		},
 		{
-			module: 'MMM-CountDownSL',
+			module: 'MMM-CountDown',
 			position: "top_right",
 			config: {
 				event: "Birthday Shanie",
@@ -139,7 +139,7 @@ var config = {
 			}
 		},
 		{
-			module: 'MMM-CountDownSL',
+			module: 'MMM-CountDown',
 			position: "top_right",
 			config: {
 				event: "Birthday Rahel",
@@ -202,7 +202,7 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check-o",
-						url: "https://calendar.google.com/calendar/u/0?cid=YWt1bWF3YWhAZ29vZ2xlbWFpbC5jb20"
+						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/private-f81fc6cfd32105274dce9a1d282a874f/basic.ics"
 					}
 				]
 			}
