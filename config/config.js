@@ -202,7 +202,7 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check-o",
-						url: "https://calendar.google.com/calendar/ical/akumawah%40googlemail.com/public/basic.ics"
+						url: "https://calendar.google.com/calendar/u/0?cid=YWt1bWF3YWhAZ29vZ2xlbWFpbC5jb20"
 					}
 				]
 			}
