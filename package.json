@@ -50,7 +50,7 @@
 		"express-basic-auth": "^1.2.0",
 		"husky": "^4.3.6",
 		"jsdom": "^16.4.0",
-		"lodash": "^4.17.20",
+		"lodash": "^4.17.21",
 		"mocha": "^8.2.1",
 		"mocha-each": "^2.0.1",
 		"mocha-logger": "^1.0.7",
